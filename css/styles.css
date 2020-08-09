@@ -257,6 +257,7 @@ h1 {
 .link1,
 .link2 {
     display: inline-block;
+    margin: 15px 5px;
 
 }
 

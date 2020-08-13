@@ -52,8 +52,9 @@ li {
 }
 
 
-h1 {
-    margin: 0;
+.main-text {
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 .footer-text {
@@ -90,13 +91,19 @@ h1 {
     }
 
     .main-text2 {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .link-grid {
         gap: 0;
         padding: 0;
         margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .grid-container {
+        width: 100%;
     }
 }
 
@@ -114,10 +121,6 @@ h1 {
         margin-top: 5px;
     }
 
-    .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
 }
 
 .myName {
@@ -127,7 +130,6 @@ h1 {
 .main-text2 {
     font-size: 30px;
     color: #fff;
-    font-style: italic;
 }
 
 #projects {
@@ -230,15 +232,27 @@ h1 {
             'image'
             'text';
         justify-items: center;
-        width: 95%;
+        text-align: center;
+        width: 65%;
+    }
+
+    .main-text {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
     .main-text2 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .item4 {
         text-align: center;
+    }
+}
+
+@media screen and (max-width:651px) {
+    .grid-container {
+        width: 80%;
     }
 }
 
@@ -299,7 +313,7 @@ h1 {
 }
 
 .btn1 {
-    background-color: rgb(57, 194, 57);
+    background-color: #4CAF50;
     border: none;
     border-radius: 2px;
     padding: 10px 15px;
@@ -315,7 +329,7 @@ h1 {
 }
 
 .btn2 {
-    background-color: rgb(127, 172, 214);
+    background-color: #9bbbdb;
     border: none;
     border-radius: 2px;
     padding: 10px 15px;
@@ -377,6 +391,7 @@ h1 {
     border-radius: 2px;
     color: #fff;
     border: none;
+    outline: none;
     padding: 8px 10px;
     background-color: #0b5866;
 }
@@ -486,8 +501,8 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #a5a71e;
-    color: #000;
+    background-color: #834343;
+    color: #fff;
 
 }
 
@@ -540,13 +555,21 @@ textarea:focus:-ms-input-placeholder {
 
 .moreBtn {
     margin: 0 auto;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     text-decoration: none;
-    padding: 8px 10px;
-    background-color: rgb(247, 114, 66);
+    padding: 10px 12px;
+    background-color: #404964;
+}
+
+.moreBtn img {
+    transition: transform .2s linear;
 }
 
 .moreBtn:hover {
-    background-color: rgb(255, 82, 20);
+    background-color: #834343;
+}
+
+.moreBtn:hover img {
+    transform: rotate(90deg);
 }

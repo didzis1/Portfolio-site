@@ -89,6 +89,10 @@ h1 {
         font-size: 20px;
     }
 
+    .main-text2 {
+        font-size: 15px;
+    }
+
     .link-grid {
         gap: 0;
         padding: 0;
@@ -102,6 +106,10 @@ h1 {
         font-size: 30px;
     }
 
+    .main-text2 {
+        font-size: 20px;
+    }
+
     .link-grid {
         margin-top: 5px;
     }
@@ -112,9 +120,14 @@ h1 {
 
 }
 
-#startView span {
-
+.myName {
     color: #D7A31A;
+}
+
+.main-text2 {
+    font-size: 30px;
+    color: #fff;
+    font-style: italic;
 }
 
 #projects {
@@ -220,6 +233,10 @@ h1 {
         width: 95%;
     }
 
+    .main-text2 {
+        font-size: 20px;
+    }
+
     .item4 {
         text-align: center;
     }
@@ -284,6 +301,7 @@ h1 {
 .btn1 {
     background-color: rgb(57, 194, 57);
     border: none;
+    border-radius: 2px;
     padding: 10px 15px;
     margin: 0 15px;
 }
@@ -299,6 +317,7 @@ h1 {
 .btn2 {
     background-color: rgb(127, 172, 214);
     border: none;
+    border-radius: 2px;
     padding: 10px 15px;
 }
 
@@ -313,6 +332,7 @@ h1 {
 .btn3 {
     background-color: rgb(221, 105, 63);
     border: none;
+    border-radius: 2px;
     padding: 10px 15px;
 }
 
@@ -354,6 +374,7 @@ h1 {
 
 .dropdown-button {
     cursor: pointer;
+    border-radius: 2px;
     color: #fff;
     border: none;
     padding: 8px 10px;
@@ -509,3 +530,23 @@ textarea:focus:-ms-input-placeholder {
 }
 
 /* IE 10+ */
+
+.more-projects {
+    padding-top: 50px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.moreBtn {
+    margin: 0 auto;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 8px 10px;
+    background-color: rgb(247, 114, 66);
+}
+
+.moreBtn:hover {
+    background-color: rgb(255, 82, 20);
+}

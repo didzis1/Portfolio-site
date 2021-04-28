@@ -22,6 +22,14 @@ li {
     padding: 2px 0;
 }
 
+td {
+    color: #fff;
+}
+
+table {
+    padding: 15px;
+}
+
 /* Typography */
 
 .navlink a {
@@ -310,6 +318,11 @@ li {
 
 .skill-icons {
     width: 35px;
+    vertical-align: middle;
+}
+
+.skill-icons-2 {
+    width: 28px;
     vertical-align: middle;
 }
 
